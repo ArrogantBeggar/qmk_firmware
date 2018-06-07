@@ -1,5 +1,10 @@
 # normacos
-This keymap was designed specifically to be used on a MacOS High Sierra system with constant use of the Terminal, as it includes a multitude of macros for both the terminal as well as Spotlight Search.
+The normacos keymap is designed for a Let's Split (or any 4x12) keyboard used on a MacOS High Sierra system.
+
+It includes a multitude of macros that open regularly used applications through Spotlight Search.
+
+It also includes several useful macros for the default Terminal.
+
 
 Norman keyboard layout [info page.](https://normanlayout.info/)
 
@@ -24,8 +29,8 @@ Macros:
 - Log opens the 'Log Work' modal on Atlassian's Jira web client
 - UpDir moves working directory to its parent
 
-All macros that make use of the SEND_STRING command have a 100 millisecond wait before and after "writing" to let the computer/OS/app catch up.
-Any and all empty keys shown below are will be set in the future, and do nothing as of the time of this writing.
+All macros that make use of the SEND_STRING command have a 100 millisecond delay between steps so the OS/app catch up.
+Any and all empty keys shown below will be set eventually, and do nothing as of the time of this writing.
 
 
 
@@ -38,7 +43,7 @@ Any and all empty keys shown below are will be set in the future, and do nothing
 |------+------+------+------+------+------| |------+------+------+------+------+------|
 | Shift|   Z  |   X  |   C  |   V  |   B  | |   P  |   M  |   ,  |   .  |   /  |SftEnt|
 |------+------+------+------+------+------| |------+------+------+------+------+------|
-| Lock | Home |  End | Alt  | Lower| GUI  | | Space| Raise| Left | Down |  Up  | Right|
+| Lock | Home |  End |  Alt | Lower| GUI  | | Space| Raise| Left | Down |  Up  | Right|
 `-----------------------------------------' `-----------------------------------------'
 ```
 
@@ -75,9 +80,9 @@ Any and all empty keys shown below are will be set in the future, and do nothing
 
 ```
 ,-----------------------------------------. ,-----------------------------------------.
-|      |      |      |      |      |      | |      |      |      |      | Reset|      |
+|      |      |      |      |      |      | |      |      |      |      |      |      |
 |------+------+------+------+------+------| |------+------+------+------+------+------|
-|      |      |      |      | AudOn|AudOff| |      |Norman|      |      |      |      |
+|      |      |      |      | Reset|      | |      | Reset|      |      |      |      |
 |------+------+------+------+------+------| |------+------+------+------+------+------|
 |      |      |      |      |      |      | |      |      |      |      |      |      |
 |------+------+------+------+------+------| |------+------+------+------+------+------|
