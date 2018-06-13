@@ -41,9 +41,9 @@ Any and all empty keys shown below will be set eventually, and do nothing as of 
 |------+------+------+------+------+------| |------+------+------+------+------+------|
 |CtlEsc|   A  |   S  |   E  |   T  |   G  | |   Y  |   N  |   I  |   O  |   H  |  '   |
 |------+------+------+------+------+------| |------+------+------+------+------+------|
-| Shift|   Z  |   X  |   C  |   V  |   B  | |   P  |   M  |   ,  |   .  |   /  |SftEnt|
+| Shift|   Z  |   X  |   C  |   V  |   B  | |   P  |   M  |   ,  |   .  |   /  |  Ent |
 |------+------+------+------+------+------| |------+------+------+------+------+------|
-| Lock | Home |  End |  Alt | Lower| GUI  | | Space| Raise| Left | Down |  Up  | Right|
+| Lock | Home |  End |  Alt | Lower|  GUI | | Space| Raise| Left | Down |  Up  | Right|
 `-----------------------------------------' `-----------------------------------------'
 ```
 
@@ -55,7 +55,7 @@ Any and all empty keys shown below will be set eventually, and do nothing as of 
 |------+------+------+------+------+------| |------+------+------+------+------+------|
 |CtlEsc|  F5  |  F6  |  F7  |  F8  |      | |   *  |   4  |   5  |   6  |   +  |  Del |
 |------+------+------+------+------+------| |------+------+------+------+------+------|
-| Shift|  F9  |  F10 |  F11 |  F12 |      | |   /  |   1  |   2  |   3  |   -  |SftEnt|
+| Shift|  F9  |  F10 |  F11 |  F12 |      | |   /  |   1  |   2  |   3  |   -  |  Ent |
 |------+------+------+------+------+------| |------+------+------+------+------+------|
 | Lock | Home |  End |  Alt | Lower|  GUI | |   .  | Raise|   0  | Spot |Chrome|      |
 `-----------------------------------------' `-----------------------------------------'
@@ -70,7 +70,7 @@ Any and all empty keys shown below will be set eventually, and do nothing as of 
 |------+------+------+------+------+------| |------+------+------+------+------+------|
 |CtlEsc|  Log | UpDir| Slack| Term | OutLk| |   =  |   -  |   \  |   [  |   ]  |   `  |
 |------+------+------+------+------+------| |------+------+------+------+------+------|
-| Shift|ClrHom|ClrEnd|ShHome| ShEnd|Search| | Play | Mute | VolDn| VolUp|ScnSht|SftEnt|
+| Shift|ClrHom|ClrEnd|ShHome| ShEnd|Search| | Play | Mute | VolDn| VolUp|ScnSht|  Ent |
 |------+------+------+------+------+------| |------+------+------+------+------+------|
 | Lock | Home |  End |  Alt | Lower|  GUI | | Space| Raise| Left | Down |  Up  | Right|
 `-----------------------------------------' `-----------------------------------------'

@@ -31,7 +31,7 @@ enum custom_keycodes {
 #define XXXXXXX KC_NO
 
 // Mod taps
-#define SFT_ENT    SFT_T(KC_ENT)	// Tap for Enter, hold for Shift
+// #define SFT_ENT    SFT_T(KC_ENT)	// Tap for Enter, hold for Shift
 #define CTL_ESC    CTL_T(KC_ESC)	// Tap for Escape, hold for Control
 
 // Custom macros
@@ -51,15 +51,15 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------+------| |------+------+------+------+------+------|
  * |CtlEsc|   A  |   S  |   E  |   T  |   G  | |   Y  |   N  |   I  |   O  |   H  |  '   |
  * |------+------+------+------+------+------| |------+------+------+------+------+------|
- * | Shift|   Z  |   X  |   C  |   V  |   B  | |   P  |   M  |   ,  |   .  |   /  |SftEnt|
+ * | Shift|   Z  |   X  |   C  |   V  |   B  | |   P  |   M  |   ,  |   .  |   /  |  Ent |
  * |------+------+------+------+------+------| |------+------+------+------+------+------|
- * | Lock | Home |  End | Alt  | Lower| GUI  | | Space| Raise| Left | Down |  Up  | Right|
+ * | Lock | Home |  End | Alt  | Lower|  GUI | | Space| Raise| Left | Down |  Up  | Right|
  * `-----------------------------------------' `-----------------------------------------'
  */
 [_NORMAN] = LAYOUT_ortho_4x12( \
   KC_TAB,  KC_Q,    KC_W,    KC_D,    KC_F,  KC_K,    KC_J,   KC_U,  KC_R,    KC_L,    KC_SCLN, KC_BSPC, \
   CTL_ESC, KC_A,    KC_S,    KC_E,    KC_T,  KC_G,    KC_Y,   KC_N,  KC_I,    KC_O,    KC_H,    KC_QUOT, \
-  KC_LSFT, KC_Z,    KC_X,    KC_C,    KC_V,  KC_B,    KC_P,   KC_M,  KC_COMM, KC_DOT,  KC_SLSH, SFT_ENT, \
+  KC_LSFT, KC_Z,    KC_X,    KC_C,    KC_V,  KC_B,    KC_P,   KC_M,  KC_COMM, KC_DOT,  KC_SLSH, KC_ENT,  \
   SCN_LCK, KC_HOME, KC_END,  KC_LALT, LOWER, KC_LGUI, KC_SPC, RAISE, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT
 ),
 
@@ -69,7 +69,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------+------| |------+------+------+------+------+------|
  * |CtlEsc|  F5  |  F6  |  F7  |  F8  |      | |   *  |   4  |   5  |   6  |   +  |  Del |
  * |------+------+------+------+------+------| |------+------+------+------+------+------|
- * | Shift|  F9  |  F10 |  F11 |  F12 |      | |   /  |   1  |   2  |   3  |   -  |SftEnt|
+ * | Shift|  F9  |  F10 |  F11 |  F12 |      | |   /  |   1  |   2  |   3  |   -  |  Ent |
  * |------+------+------+------+------+------| |------+------+------+------+------+------|
  * | Lock | Home |  End |  Alt | Lower|  GUI | |   .  | Raise|   0  | Spot |Chrome|      |
  * `-----------------------------------------' `-----------------------------------------'
@@ -87,7 +87,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------+------| |------+------+------+------+------+------|
  * |CtlEsc|  Log | UpDir| Slack| Term | OutLk| |   =  |   -  |   \  |   [  |   ]  |   `  |
  * |------+------+------+------+------+------| |------+------+------+------+------+------|
- * | Shift|ClrHom|ClrEnd|ShHome| ShEnd|Search| | Play | Mute | VolDn| VolUp|ScnSht|SftEnt|
+ * | Shift|ClrHom|ClrEnd|ShHome| ShEnd|Search| | Play | Mute | VolDn| VolUp|ScnSht|  Ent |
  * |------+------+------+------+------+------| |------+------+------+------+------+------|
  * | Lock | Home |  End |  Alt | Lower|  GUI | | Space| Raise| Left | Down |  Up  | Right|
  * `-----------------------------------------' `-----------------------------------------'

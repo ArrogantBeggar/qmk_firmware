@@ -34,4 +34,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define _MASTER_RIGHT
 #define EE_HANDS
 
+#define AUTO_SHIFT_TIMEOUT 95
+
 #endif
