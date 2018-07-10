@@ -11,26 +11,27 @@ Norman keyboard layout [info page.](https://normanlayout.info/)
 Some Norman layout keys were placed on different layers and different positions based on available space and preference.
 
 
-Macros:
-- CtlEsc sends Escape when tapped, and Control when held.
-- SftEnt sends Enter when tapped, and Shift when held.
-- Lock locks the computer
-- Slack opens Slack through Spotlight Search
-- Term opens Terminal through Spotlight Search
-- Spot opens Spotify through Spotlight Search
+Macros (in alphabetical order):
 - Chrome opens Chrome through Spotlight Search
+- ClrEnd clears Terminal line from cursor up to end of line
+- ClrHom clears Terminal line from beginning of line up to cursor
+- CtlEsc sends Escape when tapped, and Control when held.
+- Lock locks the computer
+- Log opens the 'Log Work' modal on Atlassian's Jira web client
+- Min hides and minimizes all windows
 - OutLk opens Microsoft Outlook through Spotlight Search
 - ScnSht allows the user to take a screenshot of a selected portion of the screen
-- ClrHom clears Terminal line from beginning of line up to cursor
-- ClrEnd clears Terminal line from cursor up to end of line
+- Search activates Terminal Reverse Search Command History
+- SftEnt sends Enter when tapped, and Shift when held.
 - ShHome moves Terminal cursor to beginning of line
 - ShEnd moves Terminal cursor to end of line
-- Search activates Terminal Reverse Search Command History
-- Log opens the 'Log Work' modal on Atlassian's Jira web client
-- UpDir moves working directory to its parent
+- Slack opens Slack through Spotlight Search
+- Spot opens Spotify through Spotlight Search
+- Teams opens Microsoft Teams through Spotlight Search
+- Term opens Terminal through Spotlight Search
 
-All macros that make use of the SEND_STRING command have a 100 millisecond delay between steps so the OS/app catch up.
-Any and all empty keys shown below will be set eventually, and do nothing as of the time of this writing.
+All macros that make use of the SEND_STRING command have a 100 millisecond delay between steps so the OS/app catches up.
+Any and all empty keys below may or may not be set in time, and do nothing as of the time of this writing.
 
 
 
@@ -68,7 +69,7 @@ Any and all empty keys shown below will be set eventually, and do nothing as of 
 ,-----------------------------------------. ,-----------------------------------------.
 |  Tab |   !  |   @  |   #  |   $  |   %  | |   ^  |   &  |   *  |   (  |   )  |  Del |
 |------+------+------+------+------+------| |------+------+------+------+------+------|
-|CtlEsc|  Log | UpDir| Slack| Term | OutLk| |   =  |   -  |   \  |   [  |   ]  |   `  |
+|CtlEsc|  Log | Teams| Slack| Term | OutLk| |   =  |   -  |   \  |   [  |   ]  |   `  |
 |------+------+------+------+------+------| |------+------+------+------+------+------|
 | Shift|ClrHom|ClrEnd|ShHome| ShEnd|Search| | Play | Mute | VolDn| VolUp|ScnSht|  Ent |
 |------+------+------+------+------+------| |------+------+------+------+------+------|
