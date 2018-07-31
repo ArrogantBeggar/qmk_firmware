@@ -22,7 +22,7 @@ Macros (in alphabetical order):
 - OutLk opens Microsoft Outlook through Spotlight Search
 - ScnSht allows the user to take a screenshot of a selected portion of the screen
 - Search activates Terminal Reverse Search Command History
-- SftEnt sends Enter when tapped, and Shift when held.
+- SftEnt sends Space Cadet Shift Enter.
 - ShHome moves Terminal cursor to beginning of line
 - ShEnd moves Terminal cursor to end of line
 - Slack opens Slack through Spotlight Search
@@ -42,7 +42,7 @@ Any and all empty keys below may or may not be set in time, and do nothing as of
 |------+------+------+------+------+------| |------+------+------+------+------+------|
 |CtlEsc|   A  |   S  |   E  |   T  |   G  | |   Y  |   N  |   I  |   O  |   H  |  '   |
 |------+------+------+------+------+------| |------+------+------+------+------+------|
-| Shift|   Z  |   X  |   C  |   V  |   B  | |   P  |   M  |   ,  |   .  |   /  |  Ent |
+| Shift|   Z  |   X  |   C  |   V  |   B  | |   P  |   M  |   ,  |   .  |   /  |SftEnt|
 |------+------+------+------+------+------| |------+------+------+------+------+------|
 | Lock | Home |  End |  Alt | Lower|  GUI | | Space| Raise| Left | Down |  Up  | Right|
 `-----------------------------------------' `-----------------------------------------'
@@ -56,9 +56,9 @@ Any and all empty keys below may or may not be set in time, and do nothing as of
 |------+------+------+------+------+------| |------+------+------+------+------+------|
 |CtlEsc|  F5  |  F6  |  F7  |  F8  |      | |   *  |   4  |   5  |   6  |   +  |  Del |
 |------+------+------+------+------+------| |------+------+------+------+------+------|
-| Shift|  F9  |  F10 |  F11 |  F12 |      | |   /  |   1  |   2  |   3  |   -  |  Ent |
+| Shift|  F9  |  F10 |  F11 |  F12 |      | |   /  |   1  |   2  |   3  |   -  |SftEnt|
 |------+------+------+------+------+------| |------+------+------+------+------+------|
-| Lock | Home |  End |  Alt | Lower|  GUI | |   .  | Raise|   0  | Spot |Chrome|      |
+| Lock | Home |  End |  Alt | Lower|  GUI | | Space| Raise|   0  |   .  | Spot |Chrome|
 `-----------------------------------------' `-----------------------------------------'
 ```
 
@@ -71,7 +71,7 @@ Any and all empty keys below may or may not be set in time, and do nothing as of
 |------+------+------+------+------+------| |------+------+------+------+------+------|
 |CtlEsc|  Log | Teams| Slack| Term | OutLk| |   =  |   -  |   \  |   [  |   ]  |   `  |
 |------+------+------+------+------+------| |------+------+------+------+------+------|
-| Shift|ClrHom|ClrEnd|ShHome| ShEnd|Search| | Play | Mute | VolDn| VolUp|ScnSht|  Ent |
+| Shift|ClrHom|ClrEnd|ShHome| ShEnd|Search| | Play | Mute | VolDn| VolUp|ScnSht|SftEnt|
 |------+------+------+------+------+------| |------+------+------+------+------+------|
 | Lock | Home |  End |  Alt | Lower|  GUI | | Space| Raise| Left | Down |  Up  | Right|
 `-----------------------------------------' `-----------------------------------------'
