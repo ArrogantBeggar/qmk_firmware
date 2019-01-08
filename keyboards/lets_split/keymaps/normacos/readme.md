@@ -3,12 +3,12 @@ The normacos keymap is designed for a Let's Split (or any 4x12) keyboard used on
 
 It includes a multitude of macros that open regularly used applications through Spotlight Search.
 
-It also includes several useful macros for the default Terminal.
+It also includes several useful macros for the default OS X Terminal.
 
 
 Norman keyboard layout [info page.](https://normanlayout.info/)
 
-Some Norman layout keys were placed on different layers and different positions based on available space and preference.
+Some Norman layout keys were placed on different layers and different positions based on available space and personal preference.
 
 
 Macros (in alphabetical order):
@@ -25,7 +25,6 @@ Macros (in alphabetical order):
 - SftEnt sends Space Cadet Shift Enter.
 - ShHome moves Terminal cursor to beginning of line
 - ShEnd moves Terminal cursor to end of line
-- Slack opens Slack through Spotlight Search
 - Spot opens Spotify through Spotlight Search
 - Teams opens Microsoft Teams through Spotlight Search
 - Term opens Terminal through Spotlight Search
@@ -58,7 +57,7 @@ Any and all empty keys below may or may not be set in time, and do nothing as of
 |------+------+------+------+------+------| |------+------+------+------+------+------|
 | Shift|  F9  |  F10 |  F11 |  F12 |      | |   /  |   1  |   2  |   3  |   -  |SftEnt|
 |------+------+------+------+------+------| |------+------+------+------+------+------|
-| Lock | Home |  End |  Alt | Lower|  GUI | | Space| Raise|   0  |   .  | Spot |Chrome|
+| Lock | Home |  End |  Alt | Lower|  GUI | | Space| Raise|   0  |   .  | Spot |      |
 `-----------------------------------------' `-----------------------------------------'
 ```
 
@@ -69,7 +68,7 @@ Any and all empty keys below may or may not be set in time, and do nothing as of
 ,-----------------------------------------. ,-----------------------------------------.
 |  Tab |   !  |   @  |   #  |   $  |   %  | |   ^  |   &  |   *  |   (  |   )  |  Del |
 |------+------+------+------+------+------| |------+------+------+------+------+------|
-|CtlEsc|  Log | Teams| Slack| Term | OutLk| |   =  |   -  |   \  |   [  |   ]  |   `  |
+|CtlEsc|  Log | Teams|Chrome| Term | OutLk| |   =  |   -  |   \  |   [  |   ]  |   `  |
 |------+------+------+------+------+------| |------+------+------+------+------+------|
 | Shift|ClrHom|ClrEnd|ShHome| ShEnd|Search| | Play | Mute | VolDn| VolUp|ScnSht|SftEnt|
 |------+------+------+------+------+------| |------+------+------+------+------+------|
